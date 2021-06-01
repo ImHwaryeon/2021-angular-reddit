@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Article } from './article/article.model';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -28,4 +29,4 @@ export class AppComponent {
   sortedArticles() : Article[] {
     return this.articles.sort((a: Article, b:Article) => b.votes - a.votes);
   }
-} 
+}

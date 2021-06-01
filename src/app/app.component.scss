@@ -1,0 +1,24 @@
+form{
+  text-align: center;
+  padding: 1em;
+  width: 60%;
+  margin: auto;
+  .field{
+    width: 100%;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+  }
+  button{
+    margin-left: 10.4em;
+  }
+}
+
+.posts{
+  width: 62.5%;
+  margin: auto;
+  app-article{
+    display: flex;
+    margin-bottom: 1em;
+    padding: 0.5em;
+  }
+}
